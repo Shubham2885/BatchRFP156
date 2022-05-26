@@ -16,6 +16,15 @@ public class Vehicle {
 	//static variable also called as class variable
 	static short totalNumberVehicleProduce = 0;
 	
+	// access modifier -> return type -> functionName/methodName -> (number of parameters){}
+	// 1 -> no return type and no parameters
+	void running() {
+		System.out.println("vehicle is running...");
+	}
+	
+	static String getVehicleNumber() {
+		return "MH40AB1234";
+	}
 	
 	public static void main(String[] args) {
 		

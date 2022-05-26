@@ -50,9 +50,26 @@ public class VariableAndDataTypeDemo {
 		
 		System.out.println(abc);
 		
+		Vehicle.totalNumberVehicleProduce = 9;
+		
 		//types of varabile
 		//1 instance variable
 		//2 static variable
 		//3 local variable
+		
+		//type of method
+		//1 instance method
+		//2 static method
+		auto.running();
+		Vehicle.getVehicleNumber();
+		
+		//4 ways to right the methods
+		
+		//1 -> no return type and no parameters
+		//2 -> return type and no parameters
+		//3 -> no return type and pass parameters
+		//4 -> return type and pass parameters
+		
+		
 	}
 }
