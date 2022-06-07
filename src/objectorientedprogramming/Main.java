@@ -54,11 +54,16 @@ class Fish extends Animal {
 public class Main {
 
 	public static void main(String[] args) {
-		Bird bird = new Bird();
-		bird.eating();
-		System.out.println(bird.numberOfLegs);
+//		Bird bird = new Bird();
+//		bird.eating();
+//		System.out.println(bird.numberOfLegs);
+//		
+//		Dog dog = new Dog();
+//		System.out.println("Legs of dog = "+dog.numberOfLegs);
 		
-		Dog dog = new Dog();
-		System.out.println("Legs of dog = "+dog.numberOfLegs);
+		String x = "hello";
+		x.concat(" Shubham");
+		
+		System.out.println(x);
 	}
 }
