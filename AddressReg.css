@@ -1,0 +1,35 @@
+input[type="text"], input[type="number"] {
+    background-color: aqua;
+    border-radius: 5px;
+ }
+
+ input[type="submit"] {
+    background-color: rgb(5, 233, 24);
+    border-radius: 5px;
+    width: 100%;
+    color: brown;
+    font-weight: bold;
+ }
+
+ table {
+     border-color: black;
+     background-color: blueviolet;
+ }
+
+ body {
+    background-color: dimgray;
+ }
+
+ #homeAddres {
+   padding: 10%;
+ }
+
+ #officeAddress {
+    padding: 10%;
+  }
+
+ #main-address-css {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+ }
